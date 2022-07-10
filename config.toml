@@ -1,7 +1,11 @@
-baseurl = "/"
+baseurl = "https://ramonmoorlag.nl/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 5
+paginate = 20
+custom_css = "pink.css"
+enableEmoji = "true"
+publishDir = "docs"
+
 
 [params]
   # dir name of your main content (default is `content/posts`).
@@ -9,10 +13,10 @@ paginate = 5
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "pink"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -21,14 +25,14 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
 
   # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  showLastUpdated = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
 
@@ -40,25 +44,27 @@ paginate = 5
   # set Twitter handles for Twitter cards
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
-  creator = ""
-  site = ""
+  creator = "moorlag"
+  site = "https://ramonmoorlag.nl"
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
-    owner = ""
-    keywords = ""
-    copyright = ""
+    title = "Moorlag's Blog"
+    subtitle = "Things and things that keep me busy at night"
+    owner = "Ramon Moorlag"
+    keywords = "Computer Science"
+    copyright = "(c) 2022 Ramon Moorlag"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "This is akward. You're looking at my 404..."
+    missingBackButtonLabel = "Quick break the akwardness. Back to home page"
 
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Moorlag"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -66,7 +72,15 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
+    #  [[languages.en.menu.main]]
+    #    identifier = "showcase"
+    #    name = "Showcase"
+    #    url = "/showcase"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        [[languages.en.menu.main]]
+          identifier = "Inspiration"
+          name = "Inspiration"
+          url = "/Inspiration"
