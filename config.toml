@@ -1,4 +1,4 @@
-baseurl = "https://ramonmoorlag.nl/"
+baseurl = "https://demo.ramonmoorlag.nl/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 20
