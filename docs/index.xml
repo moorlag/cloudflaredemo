@@ -2,20 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moorlag&#39;s Blog</title>
-    <link>ramonmoorlag.nl/</link>
+    <link>https://ramonmoorlag.nl/</link>
     <description>Recent content on Moorlag&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>(c) 2022 Ramon Moorlag</copyright>
-    <lastBuildDate>Sat, 09 Jul 2022 09:26:56 +0200</lastBuildDate><atom:link href="ramonmoorlag.nl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 09:26:56 +0200</lastBuildDate><atom:link href="https://ramonmoorlag.nl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post on Cloudflare!</title>
-      <link>ramonmoorlag.nl/posts/my-first-post/</link>
+      <title>Cloudflare Pages!</title>
+      <link>https://ramonmoorlag.nl/posts/my-first-post/</link>
       <pubDate>Sat, 09 Jul 2022 09:26:56 +0200</pubDate>
       
-      <guid>ramonmoorlag.nl/posts/my-first-post/</guid>
-      <description>Hello World, this is yet another hello world&amp;hellip;</description>
-      <content>&lt;p&gt;Hello World, this is yet another hello world&amp;hellip;&lt;/p&gt;
+      <guid>https://ramonmoorlag.nl/posts/my-first-post/</guid>
+      <description>Hello World, this is yet another hello world&amp;hellip; This post is made possible with Cloudflare Pages and the help of the Hugo Discourse!
+Photo by Zac Durant via Unsplash</description>
+      <content>&lt;p&gt;Hello World, this is yet another hello world&amp;hellip;
+This post is made possible with Cloudflare Pages and the help of &lt;a href=&#34;https://discourse.gohugo.io/t/cloudflare-pages-exploring/39437&#34;&gt;the Hugo Discourse&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Photo by &lt;a href=&#34;https://unsplash.com/@zacdurant?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&#34;&gt;Zac Durant&lt;/a&gt; via &lt;a href=&#34;https://unsplash.com/s/photos/success?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     
