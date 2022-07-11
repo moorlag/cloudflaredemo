@@ -67,20 +67,20 @@ publishDir = "docs"
       logoText = "Moorlag"
       logoHomeLink = "/"
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+  #  [languages.en.menu]
+  #    [[languages.en.menu.main]]
+  #      identifier = "about"
+  #      name = "About"
+  #      url = "/about"
     #  [[languages.en.menu.main]]
     #    identifier = "showcase"
     #    name = "Showcase"
     #    url = "/showcase"
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact"
-        url = "/contact"
-        [[languages.en.menu.main]]
-          identifier = "Inspiration"
-          name = "Inspiration"
-          url = "/Inspiration"
+    #  [[languages.en.menu.main]]
+    #    identifier = "contact"
+    #    name = "Contact"
+    #    url = "/contact"
+    #    [[languages.en.menu.main]]
+    #      identifier = "Inspiration"
+    #      name = "Inspiration"
+    #      url = "/Inspiration"
