@@ -4,7 +4,7 @@ theme = "terminal"
 paginate = 20
 custom_css = "pink.css"
 enableEmoji = "true"
-publishDir = "docs"
+publishDir = "public"
 
 
 [params]
